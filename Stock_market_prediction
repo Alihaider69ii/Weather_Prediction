@@ -1,0 +1,9 @@
+tock Market Prediction using LSTM
+
+Developed an LSTM-based deep learning model to forecast next-day stock prices using Apple (AAPL) historical data (2015–2025) collected from Yahoo Finance.
+
+Implemented multi-layer LSTM architecture with dropout layers to prevent overfitting, achieving strong predictive accuracy validated through MSE, MAE, and RMSE metrics.
+
+Compared performance with ARIMA and Random Forest, demonstrating superior accuracy in capturing long-term dependencies and market trends.
+
+Optimized data preprocessing with MinMaxScaler and 60-day input sequences, enabling robust modeling of temporal patterns in stock price movements.
